@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, data race issue in Rust when dealing with vectors.  The `bug.rs` file contains code that exhibits the problem.  The solution, in `bugSolution.rs`, shows how to correctly handle this scenario to prevent data races.  This is crucial for writing safe and reliable concurrent code in Rust.
